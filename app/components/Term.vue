@@ -18,7 +18,7 @@ defineProps({
 </script>
 
 <template>
-    <v-card class="mx-auto" max-width="344" variant="outlined">
+    <v-card class="mx-auto" max-width="100%" variant="outlined">
         <v-card-item>
             <v-card-title>{{ char }}</v-card-title>
             <v-card-subtitle>{{ ruby }}</v-card-subtitle>

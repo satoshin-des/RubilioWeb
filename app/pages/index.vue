@@ -34,9 +34,9 @@ const filteredData = computed(() => {
     <h1 style="text-align: center;">ルビリオ当て字Web</h1>
     <div style="text-align: center;">
         <input type="text" id="inputStr" v-model="inputText" placeholder="文字を入力してくださいな" @keyup.enter="search" />
-        <button v-on:click="search">検索</button>
+        <button v-on:click="search">Submit</button>
     </div>
-    <div v-for="value in filteredData" :key="value.read" style="margin-left: auto; margin-right: auto;">
+    <div v-for="value in filteredData" :key="value.read" class="mb-3" style="display: flex; justify-content: center;">
         <Term :char="value.char" :ruby="value.read" :cite="value.cite" />
     </div>
 </template>
