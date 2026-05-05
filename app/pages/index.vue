@@ -23,9 +23,12 @@ const filteredData = computed(() => {
     if (strToSearch.value === '') {
         return [];
     } else {
-        return data.value.filter(value =>
+        const ret = data.value.filter(value =>
             value.read.includes(strToSearch.value)
         );
+        return ret.sort((a, b) => {
+            return a.read.localeCompare(b.read, 'ja');
+        });
     }
 });
 </script>
