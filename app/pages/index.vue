@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { ref, computed } from 'vue';
 
-import jsonData from '../assets/data.json';
+import jsonData from '~/assets/data.json';
 import Term from '~/components/Term.vue';
 
 const data = ref(jsonData);
