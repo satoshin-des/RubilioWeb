@@ -1,7 +1,8 @@
 <script setup lang="ts">
 import { ref, computed } from 'vue';
 
-import jsonData from '../assets/data.json';
+import jsonData from '~/assets/data.json';
+import Term from '~/components/Term.vue';
 
 const data = ref(jsonData);
 
@@ -35,7 +36,7 @@ const filteredData = computed(() => {
     <button v-on:click="search">検索</button>
     <ul>
         <li v-for="value in filteredData" :key="value.read">
-            {{ value.char }}（{{ value.read }}）『{{ value.cite }}』
+            <Term :char="value.char" :ruby="value.read" :cite="value.cite" />
         </li>
     </ul>
 </template>
