@@ -18,7 +18,14 @@ defineProps({
 </script>
 
 <template>
-    <p style="font-size: 0.8em;">{{ ruby }}</p>
-    <p style="font-size: 2.0em;">{{ char }}</p>
-    <p>{{ cite }}</p>
+    <v-card class="mx-auto" max-width="344" variant="outlined">
+        <v-card-item>
+            <v-card-title>{{ char }}</v-card-title>
+            <v-card-subtitle>{{ ruby }}</v-card-subtitle>
+        </v-card-item>
+
+        <v-card-text style="text-align: right;">
+            『{{ cite }}』
+        </v-card-text>
+    </v-card>
 </template>

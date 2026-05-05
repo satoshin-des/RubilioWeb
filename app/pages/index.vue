@@ -31,12 +31,12 @@ const filteredData = computed(() => {
 </script>
 
 <template>
-    <h1>ルビリオ当て字Web</h1>
-    <input type="text" id="inputStr" v-model="inputText" placeholder="文字を入力してくださいな" @keyup.enter="search" />
-    <button v-on:click="search">検索</button>
-    <ul>
-        <li v-for="value in filteredData" :key="value.read">
-            <Term :char="value.char" :ruby="value.read" :cite="value.cite" />
-        </li>
-    </ul>
+    <h1 style="text-align: center;">ルビリオ当て字Web</h1>
+    <div style="text-align: center;">
+        <input type="text" id="inputStr" v-model="inputText" placeholder="文字を入力してくださいな" @keyup.enter="search" />
+        <button v-on:click="search">検索</button>
+    </div>
+    <div v-for="value in filteredData" :key="value.read" style="margin-left: auto; margin-right: auto;">
+        <Term :char="value.char" :ruby="value.read" :cite="value.cite" />
+    </div>
 </template>
