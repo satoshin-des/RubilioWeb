@@ -8,10 +8,16 @@ const data = ref(jsonData);
 const inputText = ref("");
 const strToSearch = ref("");
 
+/**
+ * Function to input string to search
+ */
 const search = () => {
     strToSearch.value = inputText.value;
 };
 
+/**
+ * Function to filter data
+ */
 const filteredData = computed(() => {
     if (strToSearch.value === '') {
         return [];
