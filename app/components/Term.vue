@@ -1,6 +1,4 @@
 <script setup lang="ts">
-import { S } from 'vue-router/dist/options-C8M2qFcl.cjs';
-
 defineProps({
     char: {
         type: String,
