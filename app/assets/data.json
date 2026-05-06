@@ -712,5 +712,23 @@
         "read": "ハウス",
         "cite": "ラビットカンパニーへようこそ！",
         "author": "ちゃなつ！"
+    },
+    {
+        "char": "心臓",
+        "read": "こころ",
+        "cite": "https://www.pixiv.net/artworks/101366947",
+        "author": "ちゃなつ！"
+    },
+    {
+        "char": "資料",
+        "read": "ほん",
+        "cite": "https://www.pixiv.net/artworks/100311104",
+        "author": "ちゃなつ！"
+    },
+    {
+        "char": "心音",
+        "read": "ドキドキ",
+        "cite": "https://www.pixiv.net/artworks/100253058",
+        "author": "ちゃなつ！"
     }
 ]
