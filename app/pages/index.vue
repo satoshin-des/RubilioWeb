@@ -40,6 +40,6 @@ const filteredData = computed(() => {
         <button v-on:click="search">Submit</button>
     </div>
     <div v-for="value in filteredData" :key="value.read" class="mb-3" style="display: flex; justify-content: center;">
-        <Term :char="value.char" :ruby="value.read" :cite="value.cite" />
+        <Term :char="value.char" :ruby="value.read" :cite="value.cite" :author="value.author" />
     </div>
 </template>
