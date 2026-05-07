@@ -844,5 +844,89 @@
         "read": "ネットワーク",
         "cite": "C++ライブラリ Eigenのメモ",
         "author": "シ"
+    },
+    {
+        "char": "規則",
+        "read": "レギュレーション",
+        "cite": "リアル初音ミクの消失",
+        "author": "cosMo（暴走P）"
+    },
+    {
+        "char": "現代",
+        "read": "いま",
+        "cite": "リアル初音ミクの消失",
+        "author": "cosMo（暴走P）"
+    },
+    {
+        "char": "直視れないの",
+        "read": "みれないの",
+        "cite": "リアル初音ミクの消失",
+        "author": "cosMo（暴走P）"
+    },
+    {
+        "char": "際",
+        "read": "オワリ",
+        "cite": "リアル初音ミクの消失",
+        "author": "cosMo（暴走P）"
+    },
+    {
+        "char": "現実",
+        "read": "リアル",
+        "cite": "0",
+        "author": "cosMo（暴走P）"
+    },
+    {
+        "char": "善悪",
+        "read": "くうき",
+        "cite": "R.I.P.ゴシップの海",
+        "author": "cosMo（暴走P）"
+    },
+    {
+        "char": "消えない",
+        "read": "しなない",
+        "cite": "R.I.P.ゴシップの海",
+        "author": "cosMo（暴走P）"
+    },
+    {
+        "char": "消えたら",
+        "read": "しんだら",
+        "cite": "R.I.P.ゴシップの海",
+        "author": "cosMo（暴走P）"
+    },
+    {
+        "char": "消し去る",
+        "read": "ころす",
+        "cite": "R.I.P.ゴシップの海",
+        "author": "cosMo（暴走P）"
+    },
+    {
+        "char": "教義",
+        "read": "せいぎ",
+        "cite": "R.I.P.ゴシップの海",
+        "author": "cosMo（暴走P）"
+    },
+    {
+        "char": "拡声器",
+        "read": "メガホン",
+        "cite": "R.I.P.ゴシップの海",
+        "author": "cosMo（暴走P）"
+    },
+    {
+        "char": "中立地帯",
+        "read": "はざま",
+        "cite": "R.I.P.ゴシップの海",
+        "author": "cosMo（暴走P）"
+    },
+    {
+        "char": "脳汁",
+        "read": "ドラッグ",
+        "cite": "R.I.P.ゴシップの海",
+        "author": "cosMo（暴走P）"
+    },
+    {
+        "char": "眼",
+        "read": "レンズ",
+        "cite": "R.I.P.ゴシップの海",
+        "author": "cosMo（暴走P）"
     }
 ]
