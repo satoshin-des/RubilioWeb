@@ -86,7 +86,7 @@ header {
 /* ruby article style */
 .ruby-article {
   border: 1.5px solid black;
-  border-radius: 5vw;
+  border-radius: 5px;
   padding: 1em;
   background-color: #bbb;
 
