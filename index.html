@@ -1,0 +1,21 @@
+---
+layout: default
+---
+
+<input id="post-input" type="text" value="幽波紋" class="search-kwd-box">
+<button id="post-btn" type="button" class="search-kwd-btn">検索</button>
+
+<ul id="post-res" class="post-res"></ul>
+
+<script>
+  const ALL_POSTS = [
+    {% for post in site.posts %}
+      {
+        title: {{ post.title | jsonify }},
+        url: {{ post.url | relative_url | jsonify }},
+        date: "{{ post.date | date: '%Y-%m-%d' }}"
+      }{% unless forloop.last %},{% endunless %}
+    {% endfor %}
+  ];
+</script>
+<script src="{{ '/js/search.js' | relative_url }}"></script>

@@ -1,0 +1,110 @@
+/* Global style */
+body {
+  background-color: #eee;
+  padding: 2.5vw 5vw 2.5vw 5vw;
+}
+
+input {
+  border: 1pt solid black;
+  border-radius: 3pt;
+  padding: 0.25em 0.5em 0.25em 0.5em;
+  background-color: #eef;
+
+  margin-bottom: 1em;
+}
+
+button {
+  border: 1pt solid black;
+  border-radius: 3pt;
+  padding: 0.25em 0.5em 0.25em 0.5em;
+
+  &:hover {
+    background-color: gray;
+  }
+
+  &:action {
+    background-color: white;
+  }
+
+  margin-bottom: 1em;
+}
+
+ul {
+  color: black;
+  margin-top: 0.1em;
+  margin-bottom: 0.1em;
+}
+
+li {
+  color: black;
+}
+
+/* search style */
+.search-kwd-box {
+  width: 70vw;
+  margin-right: 1vw;
+}
+
+.search-kwd-btn {
+  width: 10vw;
+}
+
+/* header style */
+header {
+  &>ul {
+    display: flex;
+    flex: 1;
+
+    &> li {
+      margin-right: 1rem;
+
+      &> a {
+        color: black;
+
+        &:hover {
+          color: gray;
+        }
+      }
+    }
+  }
+
+  margin-bottom: 1rem;
+  padding: 1rem;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+/* post result style */
+.post-res {
+  &> li {
+    border: 1.5px solid black;
+    border-radius: 5px;
+    padding: 0.5rem;
+    background-color: #bbb;
+  }
+}
+
+/* ruby article style */
+.ruby-article {
+  border: 1.5px solid black;
+  border-radius: 5vw;
+  padding: 1em;
+  background-color: #bbb;
+
+  &> h1 {
+    font-size: 24pt;
+    margin-bottom: 1rem;
+  }
+
+  &> h2 {
+    font-size: 18pt;
+    margin-bottom: 1rem;
+  }
+
+  &> ul {
+    &> li {
+      &::before {
+        content: "# ";
+      }
+    }
+  }
+}
