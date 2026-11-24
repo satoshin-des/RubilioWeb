@@ -98,6 +98,7 @@ header {
   &> h2 {
     font-size: 18pt;
     margin-bottom: 1rem;
+    margin-top: 0.5rem;
   }
 
   &> ul {
@@ -105,6 +106,22 @@ header {
       &::before {
         content: "# ";
       }
+
+      &> a {
+        &:hover {
+          color: gray;
+        }
+
+        &:active {
+          color: #222;
+        }
+      }
     }
   }
 }
+
+.uline {
+  border-bottom: 2px dashed black;
+  padding-bottom: 1px;
+}
+

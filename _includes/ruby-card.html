@@ -1,0 +1,21 @@
+<div class="ruby-article">
+  <h1>{{ include.str }}</h1>
+  <ul>
+    <li>読み方：{{ include.read }}</li>
+  </ul>
+
+  <h2>用例</h2>
+
+  <ul>
+    {% for example in include.examples %}
+      <li>{{ example }}</li>
+    {% endfor %}
+  </ul>
+
+  <h2>出典</h2>
+  <ul>
+    {% for source in include.sources %}
+      <li>{{ source }}</li>
+    {% endfor %}
+  </ul>
+</div>
